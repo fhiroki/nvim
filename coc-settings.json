@@ -1,0 +1,12 @@
+{
+    "python.jediPath": "~/.pyenv/versions/develop/lib/python3.8/site-packages/",
+    "suggest.noselect":false,
+    "suggest.preferCompleteThanJumpPlaceholder":true,
+    "languageserver": {
+        "golang": {
+        "command": "gopls",
+        "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+        "filetypes": ["go"]
+    }
+  }
+}

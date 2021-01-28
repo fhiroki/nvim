@@ -1,0 +1,98 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+
+[[plugins]]
+repo = 'ctrlpvim/ctrlp.vim'
+hook_add = '''source ~/.config/nvim/plugins/ctrlp.vim'''
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+hook_add = '''noremap <C-T> :NERDTree<Cr>'''
+
+[[plugins]]
+repo = 'tomtom/tcomment_vim'
+
+[[plugins]]
+repo = 'vim-scripts/AnsiEsc.vim'
+
+[[plugins]]
+repo = 'bronson/vim-trailing-whitespace'
+
+[[plugins]]
+repo = 'terryma/vim-multiple-cursors'
+
+[[plugins]]
+repo = 'joshdick/onedark.vim'
+hook_add = '''colorscheme onedark'''
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+hook_add = '''source ~/.config/nvim/plugins/airline.vim'''
+
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+
+[[plugins]]
+repo = 'godlygeek/tabular'
+
+[[plugins]]
+repo = 'plasticboy/vim-markdown'
+
+[[plugins]]
+repo = 'previm/previm'
+hook_add = '''source ~/.config/nvim/plugins/previm.vim'''
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+repo = 'easymotion/vim-easymotion'
+hook_add = '''source ~/.config/nvim/plugins/easymotion.vim'''
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+hook_add = '''
+let g:indentLine_leadingSpaceChar = '.'
+let g:indentLine_leadingSpaceEnabled = 1
+'''
+
+[[plugins]]
+repo = 'elzr/vim-json'
+hook_add = '''
+let g:vim_json_syntax_conceal = 0
+'''
+
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+[[plugins]]
+repo = 'ryanoasis/vim-devicons'
+
+[[plugins]]
+repo = 'w0rp/ale'
+hook_add = '''
+let g:ale_cpp_clang_executable = ''
+let g:ale_cpp_gcc_executable = 'g++'
+let g:ale_cpp_gcc_options = '-std=c++14 -Wall'
+'''
+
+[[plugins]]
+repo = 'Shougo/denite.nvim'
+hook_add = '''source ~/.config/nvim/plugins/denite.vim'''
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+
+[[plugins]]
+repo = 'cohama/lexima.vim'
+
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+rev = 'release'
+
