@@ -6,7 +6,7 @@ runtime! ./options.rc.vim
 runtime! ./keymap.rc.vim
 
 " Required:
-set runtimepath+=~/.config/repos/github.com/Shougo/dein.vim
+set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
 if dein#load_state('~/.cache/dein')
@@ -26,8 +26,4 @@ syntax enable
 if dein#check_install()
   call dein#install()
 endif
-
-" let g:dein#_merged_format =
-"     \ "{'repo': v:val.repo, 'rev': get(v:val, 'rev', '')}"
-" let g:dein#_merged_length = 3
 
